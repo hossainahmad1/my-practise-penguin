@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike-react-bootstrap</title>
+    <script src="https://kit.fontawesome.com/8647abd619.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Lobster', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hossain {
+            background-color: #FFF9F4;
+        }
+
+        .nike {
+            color: #FA804C;
+        }
+
+        .nikee {
+            background-color: #FA804C;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container hossain rounded">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-between">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="icons/Logo.png" alt="" width="150" height="24">
+                    </a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-lg-end">
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" href="#">Contact us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="container mt-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="images/images.png" class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="col-lg-7 align-items-center p-5">
+                                    <div>
+                                        <h1> <span class="nike">NIKE REACT</span> <br> INFINITY RUN 2</h1>
+                                        <p>This is the best Windows in the world for people who just want to waste
+                                            time in
+                                            front of funky world</p>
+                                        <button class=" nikee text-white  px-4 py-2 border-0 rounded">Buy
+                                            Now <i class="fa-solid fa-angle-right"></i><i
+                                                class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="images/images (18).png" class="d-block rounded w-100 " alt="...">
+                                </div>
+                                <div class="col-lg-7 align-items-center p-5">
+                                    <h1> <span class="nike">NIKE REACT</span> <br> INFINITY RUN 2</h1>
+                                    <p>This is the best Windows in the world for people who just want to waste time in
+                                        front of funky world</p>
+                                    <button class=" nikee text-white  px-4 py-2 border-0 rounded">Buy
+                                        Now <i class="fa-solid fa-angle-right"></i><i
+                                            class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="images/images (25).png" class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="col-lg-7 align-items-center p-5">
+                                    <h1 class="fs-semibold"> <span class="nike">NIKE REACT</span> <br> INFINITY RUN 2
+                                    </h1>
+                                    <p>This is the best Windows in the world for people who just want to waste time in
+                                        front of funky world</p>
+                                    <button class="nikee text-white  px-4 py-2 border-0 rounded">Buy
+                                        Now <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="mt-5 ">
+            <div class="container">
+                <h1 class="fs-bold">CASUAL SHOES</h1>
+                <div class="row mt-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/image 5.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike Shoe</h5>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$350</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/Daco_1703273 1.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sneakers Skate Shoe</h5>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$300</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/pngegg 1.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sneakers Basketball shoe</h5>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$500</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 ">
+            <div class="container">
+                <h1 class="fs-bold">FORMAL SHOES</h1>
+                <div class="row mt-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/Mask Group.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Prestige High-Cut Leather </h3>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$250</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/Rectangle 38.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Slip-On Formal Shoe</h3>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$200</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow p-3 mb-5 bg-body rounded border border-0 m-2">
+                            <img src="images/Rectangle 39.png" class="card-img-top bg-light" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Slip-On Formal Shoe</h3>
+                                <p class="card-text">This is a wider shoes with supporting text below as a natural.
+                                    This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h2 class="nike">$320</h2>
+                                    </div>
+                                    <div><button class=" text-white bg-primary  px-4 py-2 border-0 rounded"><i
+                                                class="fa-solid fa-cart-shopping"></i> Buy
+                                            Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------benefit section --------->
+        <section>
+            <div class="container mt-5">
+                <div class="d-flex">
+                    <div class="w-50 m-5">
+                        <div class="d-flex my-0">
+                            <div><img class="img-fluid" src="icons/image 12.png" alt=""></div>
+                            <div class="ms-3 align-items-center pt-3">
+                                <h2>Find the Perfect Fit</h2>
+                                <p>Everybody is different, which is why we
+                                    offer styles for every body.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex my-0">
+                            <div><img class="img-fluid" src="icons/image 13.png" alt=""></div>
+                            <div class="ms-3 align-items-center pt-3">
+                                <h2>Free Exchanges</h2>
+                                <p>One of the many reasons you can shop
+                                    with peace of mind.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5  ">
+                            <div><img class="img-fluid" src="icons/image 14.png" alt=""></div>
+                            <div class="ms-3 align-items-center pt-3">
+                                <h2>Contact Our Seller</h2>
+                                <p>They are here to help you. That's quite
+                                    literally what we pay them for.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-50 mt-5 py-0">
+                        <div><img class="img-fluid" src="icons/XMLID 1.png" alt=""></div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
